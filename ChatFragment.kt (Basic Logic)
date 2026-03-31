@@ -1,0 +1,10 @@
+btnSend.setOnClickListener {
+    val userMsg = etMessage.text.toString()
+
+    tvResponse.text = "Thinking..."
+
+    // Fake AI response (replace with API)
+    tvResponse.postDelayed({
+        tvResponse.text = "Water your plant every 2 days 🌱"
+    }, 1000)
+}
