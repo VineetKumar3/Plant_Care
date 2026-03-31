@@ -1,0 +1,4 @@
+val logo = findViewById<ImageView>(R.id.logo)
+
+logo.alpha = 0f
+logo.animate().alpha(1f).setDuration(1500).start()
